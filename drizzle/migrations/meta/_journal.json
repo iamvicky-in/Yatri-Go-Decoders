@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789221164123,
+      "tag": "0000_yatri_core_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789228114599,
+      "tag": "0001_add_booking_payment_accounting",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789228156124,
+      "tag": "0002_secure_booking_commands",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789233794693,
+      "tag": "0003_admin_control_panel",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1789428821355,
+      "tag": "0004_vendor_verification_details",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1789428864055,
+      "tag": "0005_vendor_media_storage_policies",
+      "breakpoints": true
+    }
+  ]
+}

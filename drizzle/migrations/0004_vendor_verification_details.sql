@@ -1,0 +1,7 @@
+ALTER TABLE public.vendors
+  ADD COLUMN IF NOT EXISTS owner_name text NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS owner_email text NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS registration_id text NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS photo_urls text[] NOT NULL DEFAULT '{}',
+  ADD COLUMN IF NOT EXISTS video_url text NOT NULL DEFAULT '',
+  ADD COLUMN IF NOT EXISTS verification_notes text NOT NULL DEFAULT '';
